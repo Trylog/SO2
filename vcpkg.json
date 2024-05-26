@@ -1,0 +1,19 @@
+{
+  "name" : "so2",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "9765877106f7c179995e8010bb7427a865a6bd1d",
+  "dependencies" : [ {
+    "name" : "glad",
+    "version>=" : "0.1.36",
+    "$comment" : "  # this is heuristically generated, and may not be correct\n\n  find_package(glad CONFIG REQUIRED)\n\n  target_link_libraries(main PRIVATE glad::glad)\n"
+  }, {
+    "name" : "glfw3",
+    "version>=" : "3.4"
+  }, {
+    "name" : "freeglut",
+    "version>=" : "3.4.0#1"
+  }, {
+    "name" : "sdl2",
+    "version>=" : "2.30.1"
+  } ]
+}
